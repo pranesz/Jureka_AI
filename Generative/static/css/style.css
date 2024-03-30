@@ -1,0 +1,164 @@
+*{
+    
+    margin-top: 10px;
+    
+}
+.color{
+    color: #050A30;
+}
+.content{
+    
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+.ai{
+    font-size: 35px;
+    color: blue;
+}
+.forgetpw{
+    padding-left: 500px;
+}
+.login{
+    cursor: pointer;
+    padding: left;
+   
+    border: none;
+    border-radius: 0.5em;
+    margin-left: 1050px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 90px;
+    
+    
+}
+
+.p{
+    margin-top: 30px;
+}
+
+.gen{
+    color: #050A30;
+    font-size: 40px;
+}
+.con{
+    color: blue;
+    font-size: 40px;
+}
+
+.pp{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #050A30;
+}
+
+.ta{
+    
+    margin-top: 80px;
+    
+  
+}
+.taa{
+    width: 600px;
+    border:  none;
+    border-radius: 1em ;
+    height: 40px;
+    text-align: center;
+}
+.taaa{
+    width: 100px;
+    border: blue;
+    border-radius: 0.5em;
+    height: 44px;
+    background-color: blue;
+    color: whitesmoke;
+}
+.g{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.na{
+   margin-top: 30px;
+   font-size: 40px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: 2px solid black;
+   background-color:#FFFFFF ;
+   border-radius: 5em;
+    width: 550px;
+    height: 500px;
+    float: left;
+    margin-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+a{
+    font-size: 30px;
+}
+.contents{
+    color: #050A30;
+    padding-top: 200px;
+    
+
+}
+.aii{
+    color: blue;
+    text-align: center;
+    }
+img{
+    width: 400px;
+    height: 400px;
+
+}
+ 
+
+.container{
+    padding-left: 700px;
+}
+
+.loginss{
+    margin-top: 80px;
+
+}
+.loginsss{
+    margin-top: 50px;
+}
+.LoginPages{
+    width: 500px;
+    height: 35px;
+}
+
+.Lsignup{
+    width: 500px;
+    height: 40px;
+    margin-top: 60px;
+    background-color: blue;
+    color: white;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 370px;
+
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 20px;
+    
+    
+}
+.error{
+    color: blue;
+    font-size: 15px;
+    margin-top: 2px;
+}

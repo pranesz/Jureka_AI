@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        
+    </head>
+    
+    <body  bgcolor="#BFD7ED" >
+        <div class="center">
+            <nav >
+                <a><span class="contents">Content</span> <span class="aii">.Ai</span></a><br>
+                <img src="{{ url_for('static', filename='Bg.jpg') }}" alt="Your Image Description">
+                <!-- Rest of your content -->
+        <p>We make writing incredibly simple. Create professional content faster than ever before. Save yourself hours of hard work every week.</p>
+        </nav>
+    </div>
+
+        <div class="container">
+            <form  action='/user' method="post">
+                <h1>Register Your Account</h1>
+                <h1>EMAIL</h1><br>
+                <input class="LoginPages" id="email" name="email" placeholder="Enter your email">
+                <div class="error"></div>
+                <h1>PASSWORD</h1>
+                <input class="LoginPages" id="password"  name="password" placeholder="Enter your password"><br>
+                <div class="error"></div>
+                <a class="a">Forgot Password?</a> <br>
+                <form class="ta" action='/index' method="post">
+                   
+                </form>
+                </form>
+                <a href='/index'><button class="Lsignup">Login</button></a>
+                
+            </form>
+        </div>    
+</body>
+
+</html>

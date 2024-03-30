@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="static/css/upload.css" rel="stylesheet">
+    <title>Image to Text Converter</title>
+</head>
+<body>
+    <h2>Upload an Image</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*">
+        <input type="submit" value="Convert to Text">
+    </form>
+</body>
+</html>

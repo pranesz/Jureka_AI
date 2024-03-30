@@ -1,0 +1,33 @@
+'cedpsam/EleutherAI_gpt-neo-125M-stablediffionprompts'
+'EleutherAI/gpt-neo-125M'
+"gpt2"
+
+
+"meta-llama/Llama-2-7b-chat-hf"
+
+"music"
+"m-a-p/ChatMusician"
+
+
+"Voice pre triained"
+"openai/whisper-large-v3"
+
+'''tokenizer = AutoTokenizer.from_pretrained("username/repo_name")
+model = AutoModel.from_pretrained("username/repo_name")'''
+
+"image to text"
+"Salesforce/blip-image-captioning-base"
+
+'cosmopedia'
+'HuggingFaceTB/cosmopedia'
+
+
+"code"
+"bigcode/starcoder2-3b"
+
+"text generation 70B"
+"mistralai/Mixtral-8x7B-Instruct-v0.1"
+
+
+"togethercomputer/evo-1-131k-base"
+

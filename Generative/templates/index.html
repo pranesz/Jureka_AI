@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="static/css/index.css" rel="stylesheet">
+    <title>Text Generation</title>
+</head>
+<body >
+    
+    <h1>Text Generation</h1>
+    <form method="POST">
+        <label for="prompt">Enter a prompt:</label>
+        <center>
+        <input type="text" name="prompt" id="prompt">
+        <input type="submit" value="Generate">
+    </center>
+    </form>
+    <div>
+        <h2>Generated Text:</h2>
+        <p class="generated-text-box">{{ generated_text }}</p>
+
+        
+    </div>
+
+    <div class="container">
+        <a href='/home'> <button class="button" id="vote-button">Image-to-text</button></a>
+       
+    
+    <a href='/keyindex' > <button  class="dock-button" id="dock-button">Keyword Generation</button></a> 
+        
+
+    </div>
+    <script src="script.js"></script>        
+    </div>
+</body>
+</html>

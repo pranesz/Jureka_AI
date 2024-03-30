@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/stylee.css" rel="stylesheet">
+    <title>Keyword Trends</title>
+</head>
+<body>
+    <h1>Keyword Trends Data</h1>
+    <nav>
+        <ul>
+            <li><a href="/index">Home</a></li>
+        </ul>
+    </nav>
+    <form method="POST">
+        <input type="text" name="keyword" placeholder="Enter a keyword">
+        <input type="text" name="country" placeholder="Enter a country code (e.g., US)">
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if top_data %}
+        <div>
+            <h2>Top Searchs for '{{ search_keyword }}'</h2>
+            <table>
+                <tr>
+                    <th>states</th>
+                    <th>Interest</th>
+                </tr>
+                {% for row in top_data %}
+                    <tr>
+                        <td>{{ row[0] }}</td>
+                        <td>{{ row[1] }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endif %}
+</body>
+</html>
+</body>
+</html>
