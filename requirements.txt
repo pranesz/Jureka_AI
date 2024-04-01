@@ -1,0 +1,7 @@
+flask
+transformers
+pymongo
+os
+pytrends
+openai
+
