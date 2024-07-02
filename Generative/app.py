@@ -14,7 +14,7 @@ app = Flask(__name__)
 # Set the OpenAI API key
 
 
-app.config['MONGO_URI'] = 'mongodb+srv://pranesh:Database24@cluster0.vsrdrs2.mongodb.net/'
+app.config['MONGO_URI'] = 'mongodb+srv://username:passwordcluster0.vsrdrs2.mongodb.net/'
 
 try:
     client = MongoClient('mongodb+srv://pranesh:Database24@cluster0.vsrdrs2.mongodb.net/')
